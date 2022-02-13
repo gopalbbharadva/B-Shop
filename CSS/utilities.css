@@ -1,0 +1,14 @@
+/* || Font families  */
+@import url("https://fonts.googleapis.com/css2?family=Lexend&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: var(--Primary_Color_100);
+  --Favourite_Color: #ff1b1b;
+  --Favourite_Hover_Color: #ffe4e6;
+}
+
