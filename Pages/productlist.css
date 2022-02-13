@@ -1,0 +1,124 @@
+.main-wrapper {
+  height: 90vh;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    "sidebar main main main main main"
+    "sidebar main main main main main";
+}
+.sidebar,
+.main {
+  padding: 1rem;
+}
+.sidebar {
+  grid-area: sidebar;
+  background-color: var(--Color_White);
+}
+.main {
+  grid-area: main;
+  display: grid;
+  gap: 20px;
+  background-color: var(--Primary_Color_100);
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+/* Navbar section */
+.logo {
+  width: 100px;
+  max-width: 100%;
+}
+.navigation {
+  border: none;
+}
+.login-link {
+  color: var(--Color_White);
+}
+.secondary-list i {
+  cursor: pointer;
+}
+.secondary-list i:hover {
+  color: var(--Primary_Hover_Color);
+}
+
+/* Sidebar section */
+.filter-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--Primary_Color);
+}
+.filter-heading h3 {
+  font-size: 1.25rem;
+  font-family: "Barlow", sans-serif;
+}
+.clear-link {
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: var(--Primary_Color);
+}
+.cat-heading {
+  padding: 10px 0;
+  font-family: "Barlow", sans-serif;
+}
+
+.book-category,
+.price-category,
+.price-range {
+  padding: 0 1rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--Primary_Color);
+}
+.label-style {
+  opacity: 0.9;
+  font-size: 14px;
+  padding-top: 12px;
+  cursor: pointer;
+}
+
+.book-category label:hover,
+.price-category label:hover {
+  color: var(--Color_Black);
+}
+
+.card{
+    background-color: var(--Color_White);
+}
+.card-sell-price {
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 530px) {
+  .sidebar {
+    display: none;
+  }
+  .main-wrapper {
+    grid-template-columns: auto;
+    grid-template-areas: "main";
+  }
+  .main {
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+  .search-icon {
+    color: var(--Primary_Color);
+    font-size: 1.25rem;
+    padding: 1rem;
+    display: block;
+    margin-left: auto;
+  }
+  .login-link {
+    display: none;
+  }
+  .hamburger-icon {
+    display: block;
+  }
+  .search-bar {
+    display: none;
+  }
+}
