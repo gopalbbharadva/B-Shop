@@ -1,5 +1,5 @@
 @import url("/Pages/ProductList/productlist.css");
-@import url("/cartpage.css");
+@import url("/Pages/CartManagement/cartpage.css");
 @import url("/Pages/Wishlist/wishlist.css");
 @import url("/login.css");
 @import url("/signup.css");
@@ -10,7 +10,7 @@
 *************Style***********/
 
 /* || Navigation section */
-.navigation{
+.navigation {
   background-color: var(--Color_White);
 }
 .search-bar {
