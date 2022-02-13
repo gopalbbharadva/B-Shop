@@ -3,7 +3,6 @@
   display: grid;
   gap: 10px;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: auto;
   grid-template-areas:
     "sidebar main main main main main"
     "sidebar main main main main main";
@@ -52,17 +51,16 @@
 }
 .filter-heading h3 {
   font-size: 1.25rem;
-  font-family: "Barlow", sans-serif;
+  font-family: var(--Barlow_Family);
 }
 .clear-link {
   cursor: pointer;
   text-transform: uppercase;
-  font-family: sans-serif;
   color: var(--Primary_Color);
 }
 .cat-heading {
   padding: 10px 0;
-  font-family: "Barlow", sans-serif;
+  font-family: var(--Barlow_Family);
 }
 
 .book-category,
