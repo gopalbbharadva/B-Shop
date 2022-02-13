@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- || Treatise-ui link -->
+    <link
+      rel="stylesheet"
+      href="https://treatiseui.netlify.app/CSS/global.css"
+    />
+    <!-- || Main css link -->
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <!-- || Fontawesome icon link -->
+    <script
+      src="https://kit.fontawesome.com/01d7227a07.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Signup Page</title>
+  </head>
+  <body>
+    <nav class="navigation">
+      <span class="hamburger-icon">
+        <i class="fas fa-bars"></i>
+      </span>
+      <div class="nav-left-section">
+        <img src="/Images/bookl.jpg" class="logo" alt="no preview available" />
+      </div>
+      <div class="search-icon">
+        <i class="fas fa-search"></i>
+      </div>
+      <div class="search-bar">
+        <i class="fas fa-search"></i>
+        <input class="search-input" type="text" placeholder="Search book..." />
+      </div>
+      <div class="nav-right-section">
+        <ul class="secondary-list">
+          <li class="favorites-list-item">
+            <a href="/Pages/Wishlist/wishlist.html" class="btn">
+              <i class="fas fa-heart"></i>
+            </a>
+          </li>
+          <li class="cart-list-item">
+            <a href="/Pages/CartManagement/cartpage.html" class="btn">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+          </li>
+        </ul>
+        <a href="/Pages/Login/login.html" class="login-link"><span>Login</span></a>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="signup-card">
+        <h1 class="text-signup">Signup</h1>
+        <div class="name-section">
+          <div>
+            <label for="first-name">First name*</label>
+            <input
+              id="first-name"
+              class="input is-input-primary"
+              type="text"
+              placeholder="e.g Gopal"
+            />
+          </div>
+          <div>
+            <label for="last-name">Last name*</label>
+            <input
+              id="last-name"
+              class="input is-input-primary"
+              type="text"
+              placeholder="e.g Bharadva"
+            />
+          </div>
+        </div>
+        <label for="email">Email*</label>
+        <input
+          id="email"
+          class="input is-input-primary"
+          type="email"
+          placeholder="e.g abc@gmail.com"
+        />
+        <label for="password">Passoword* </label>
+        <div class="input-icon-container-su input-primary">
+          <input type="password" class="input" placeholder="e.g Abc@123" />
+          <i class="fa-regular fa-eye-slash mr"></i>
+        </div>
+        <label for="confirm-password">Confirm password*</label>
+        <div class="input-icon-container-su input-primary">
+          <input type="password" class="input" placeholder="e.g Abc@123" />
+          <i class="fa-regular fa-eye-slash mr"></i>
+        </div>
+        <a href="/Pages/Signup/Signup.html" class="btn is-solid">
+          Sign Up <i class="fa-regular fa-user-plus btn-icon"></i>
+        </a>
+        <span class="text-or">Already have an account?</span>
+        <a href="/Pages/Login/login.html" class="btn is-solid">
+          Login<i class="fa-regular fa-arrow-right-to-bracket btn-icon"></i>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
