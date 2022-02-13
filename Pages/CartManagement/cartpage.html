@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- || Treatise-ui link -->
+    <link
+      rel="stylesheet"
+      href="https://treatiseui.netlify.app/CSS/global.css"
+    />
+    <!-- || Main css link -->
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <!-- || Fontawesome icon link -->
+    <script
+      src="https://kit.fontawesome.com/01d7227a07.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Cart page</title>
+  </head>
+  <body>
+    <!-- || Navbar starts -->
+    <nav class="navigation">
+      <span class="hamburger-icon">
+        <i class="fas fa-bars"></i>
+      </span>
+      <div class="nav-left-section">
+        <img src="/Images/bookl.jpg" class="logo" alt="no preview available" />
+      </div>
+      <div class="search-icon">
+        <i class="fas fa-search"></i>
+      </div>
+      <div class="search-bar">
+        <i class="fas fa-search"></i>
+        <input class="search-input" type="text" placeholder="Search book..." />
+      </div>
+      <div class="nav-right-section">
+        <ul class="secondary-list">
+          <li class="favorites-list-item">
+            <a href="/Pages/Wishlist/wishlist.html" class="btn">
+              <i class="fas fa-heart"></i>
+            </a>
+          </li>
+          <li class="cart-list-item">
+            <a href="/Pages/CartManagement/cartpage.html" class="btn">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+          </li>
+        </ul>
+        <a href="/login.html" class="login-link"><span>Login</span></a>
+      </div>
+    </nav>
+    <!-- || Navbar ends -->
+    <main class="main-container">
+      <h1 class="main-heading">My cart</h1>
+      <div class="grid-container">
+        <div class="card-item">
+          <div class="card card-horizontal">
+            <div class="horizontal-image-container">
+              <img
+                class="image-responsive"
+                src="/Images/lineriver.jpg"
+                alt="No preview available"
+              />
+            </div>
+            <div class="card-body-wrapper">
+              <div class="card-body">
+                <h3 class="card-title">A Line in the river</h3>
+                <small class="not">By John Willy</small>
+                <p class="card-description">
+                  I think books are like people, in the sense that they’ll turn
+                  up in your life when you most need them.
+                </p>
+                <p class="card-sell-price">
+                  <span>₹325</span><span class="card-cost-price">₹650</span
+                  ><span class="card-discount">50%off</span>
+                </p>
+                <div class="card-button-container mt">
+                  <button class="card-button is-cart">
+                    <span>
+                      <i class="fas fa-shopping-cart im"></i>Add to Cart</span
+                    >
+                  </button>
+                  <button class="card-button is-wishlist">
+                    <span>
+                      <i class="fas fa-crown im"></i>Move to Favourites</span
+                    >
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bill-item">
+          <div class="bill">
+            <div class="bill-heading">
+              <h3>Price Details</h3>
+            </div>
+            <div class="bill-info">
+              <div class="row-detail">
+                <p class="col-80">Price (2 items)</p>
+                <p class="col-20">3000₹</p>
+              </div>
+              <div class="row-detail">
+                <p class="col-80">Discount</p>
+                <p class="col-20">-1000₹</p>
+              </div>
+              <div class="row-detail">
+                <p class="col-80">Delivery</p>
+                <p class="col-20 text-green">free</p>
+              </div>
+              <div class="row-detail">
+                <p class="total-text text-yellow">Total Amount</p>
+                <p class="total-value text-red">2000₹</p>
+              </div>
+            </div>
+            <div class="msg">
+              <p class="text-green">Hurray!! You saved 1000₹ :)</p>
+            </div>
+            <button class="card-button is-cart">Place Order</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

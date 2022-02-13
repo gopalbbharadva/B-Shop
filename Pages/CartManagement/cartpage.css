@@ -1,0 +1,97 @@
+.navigation {
+  background-color: var(--Color_White);
+}
+.grid-container {
+  display: grid;
+  align-items: flex-start;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+.card-item {
+  display: flex;
+  justify-content: flex-end;
+}
+.bill-item {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* Cart item */
+.horizontal-image-container {
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+}
+.card {
+  background-color: var(--Color_White);
+}
+.mt{
+  margin-top: 3rem;
+}
+
+/* Bill item */
+
+.bill {
+  width: 60%;
+  margin: 1rem;
+  background-color: var(--Color_White);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.bill-heading {
+  padding: 0 0 1rem 0;
+  border-bottom: 1px solid var(--Primary_Color);
+}
+.bill-heading h3 {
+  font-size: 1.5rem;
+}
+.bill-info {
+  padding: 1rem 0 0 0;
+  border-bottom: 1px solid var(--Primary_Color);
+}
+.col-80 {
+  opacity: 0.7;
+}
+.total-text,
+.total-value {
+  font-size: 1.25rem;
+}
+
+.msg {
+  padding: 1rem 0 4px 0;
+}
+.bill-info div {
+  padding-bottom: 10px;
+}
+.row-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-green {
+  font-weight: 800;
+  color: var(--Color_Success_600);
+}
+.text-yellow {
+  font-weight: 800;
+  color: var(--Color_Warn_500);
+}
+.text-red {
+  font-weight: 800;
+  color: var(--Color_Danger_500);
+}
+
+@media screen and (max-width: 770px) {
+  .bill {
+    width: 100%;
+  }
+  .card-item,
+  .bill-item {
+    justify-content: center;
+    align-items: center;
+  }
+  .grid-container {
+    justify-content: center;
+  }
+}
