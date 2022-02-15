@@ -1,11 +1,8 @@
 .main-wrapper {
   height: 90vh;
   display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-areas:
-    "sidebar main main main main main"
-    "sidebar main main main main main";
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-areas: "sidebar main main main main";
 }
 .sidebar,
 .main {
@@ -19,8 +16,8 @@
   grid-area: main;
   display: grid;
   gap: 20px;
-  background-color: var(--Primary_Color_100);
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  background-color: var(--Color_White);
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 
 /* Navbar section */
@@ -50,6 +47,7 @@
   border-bottom: 1px solid var(--Primary_Color);
 }
 .filter-heading h3 {
+  margin: 0;
   font-size: 1.25rem;
   font-family: var(--Barlow_Family);
 }
@@ -58,8 +56,13 @@
   text-transform: uppercase;
   color: var(--Primary_Color);
 }
+.clear-link:hover{
+  color: var(--Primary_Hover_Color);
+}
 .cat-heading {
-  padding: 10px 0;
+  font-size: 1.1rem;
+  margin: 0;
+  padding: 10px 0 0 0;
   font-family: var(--Barlow_Family);
 }
 
@@ -74,7 +77,7 @@
 }
 .label-style {
   opacity: 0.9;
-  font-size: 14px;
+  font-size: 1rem;
   padding-top: 12px;
   cursor: pointer;
 }
@@ -84,11 +87,14 @@
   color: var(--Color_Black);
 }
 
-.card{
-    background-color: var(--Color_White);
+.card {
+  background-color: var(--Color_White);
 }
 .card-sell-price {
   margin-top: 5px;
+}
+.card-image-container{
+  padding: 0;
 }
 
 @media screen and (max-width: 530px) {
