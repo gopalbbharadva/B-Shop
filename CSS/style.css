@@ -1,8 +1,9 @@
-@import url("/productlist.css");
-@import url("/cartpage.css");
-@import url("/wishlist.css");
-@import url("/login.css");
-@import url("/signup.css");
+@import url("/Pages/ProductList/productlist.css");
+@import url("/Pages/CartManagement/cartpage.css");
+@import url("/Pages/Wishlist/wishlist.css");
+@import url("/Pages/Login/login.css");
+@import url("/Pages/Signup/signup.css");
+@import url('/Pages/Logout/logout.css');
 @import url("utilities.css");
 
 /************Home***********
