@@ -1,7 +1,6 @@
 .main-wrapper {
   height: 90vh;
   display: grid;
-  gap: 10px;
   grid-template-columns: repeat(5, 1fr);
   grid-template-areas: "sidebar main main main main";
 }
@@ -17,7 +16,7 @@
   grid-area: main;
   display: grid;
   gap: 20px;
-  /* background-color: var(--Primary_Color_100); */
+  background-color: var(--Color_White);
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 
