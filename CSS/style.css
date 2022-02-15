@@ -10,7 +10,7 @@
 *************Style***********/
 
 /* || Navigation section */
-.navigation{
+.navigation {
   background-color: var(--Color_White);
 }
 .search-bar {
@@ -29,6 +29,12 @@
   font-size: 1.5rem;
   text-align: center;
 }
+.section-heading{
+  font-weight: 400;
+  background-color: var(--Color_White);
+  padding: 1rem;
+  margin: 0;
+}
 
 /* || Introduction section */
 .grid-category {
@@ -38,6 +44,10 @@
   background-color: var(--Primary_Color_100);
   padding: 1rem;
   display: flex;
+}
+.intro-header,
+.intro-quote {
+  margin: 0;
 }
 .image {
   max-width: 40%;
@@ -68,7 +78,8 @@
 .cta-button {
   margin-top: 1rem;
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
 }
 
 /* || category section */
