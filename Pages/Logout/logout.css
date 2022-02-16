@@ -10,7 +10,6 @@
   align-items: center;
   background-color: var(--Color_White);
   padding: 1rem;
-  /* border: 2px solid var(--Color_Success_500); */
   box-shadow: 0 3px 8px var(--Secondary_Border_Color);
 }
 .success-icon {
@@ -22,4 +21,8 @@
   text-align: center;
   font-size: 1.5rem;
   color: var(--Color_Success_500);
+}
+.home-link{
+  font-size: 1.5rem;
+  color: var(--Primary_Color);
 }
