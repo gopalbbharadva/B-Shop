@@ -19,8 +19,9 @@
 .search-input {
   width: 100%;
 }
-.secondary-list {
-  gap: 10px;
+.login-link{
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 .main-heading {
