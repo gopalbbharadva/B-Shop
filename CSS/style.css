@@ -3,7 +3,7 @@
 @import url("/Pages/Wishlist/wishlist.css");
 @import url("/Pages/Login/login.css");
 @import url("/Pages/Signup/signup.css");
-@import url('/Pages/Logout/logout.css');
+@import url("/Pages/Logout/logout.css");
 @import url("utilities.css");
 
 /************Home***********
@@ -20,8 +20,9 @@
 .search-input {
   width: 100%;
 }
-.secondary-list {
-  gap: 10px;
+.login-link {
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .main-heading {
@@ -30,7 +31,7 @@
   font-size: 1.5rem;
   text-align: center;
 }
-.section-heading{
+.section-heading {
   font-weight: 400;
   background-color: var(--Color_White);
   padding: 1rem;
