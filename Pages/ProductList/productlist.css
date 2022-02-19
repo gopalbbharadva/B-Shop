@@ -76,10 +76,10 @@
   border-bottom: 1px solid var(--Primary_Color);
 }
 .label-style {
-  opacity: 0.9;
   font-size: 1rem;
   padding-top: 12px;
   cursor: pointer;
+  opacity: 0.8;
 }
 
 .book-category label:hover,
@@ -95,7 +95,9 @@
 }
 .card-image-container{
   padding: 0;
+  position: relative;
 }
+
 
 @media screen and (max-width: 530px) {
   .sidebar {
