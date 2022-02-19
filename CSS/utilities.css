@@ -18,3 +18,21 @@ body {
 .card-button {
   font-weight: 600;
 }
+
+.favourites {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  top: 20rem;
+  right: 3px;
+  font-size: 1.25rem;
+  position: absolute;
+  color: var(--Favourite_Color);
+  border-radius: 50%;
+}
+.favourites:hover {
+  background-color: var(--Favourite_Hover_Color);
+}

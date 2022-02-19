@@ -12,23 +12,11 @@
 .card-title {
   font-size: 1.25rem;
 }
-.favourites {
-  padding: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 30px;
-  width: 30px;
-  top: 20rem;
-  right: 3px;
-  font-size: 1.25rem;
-  position: absolute;
-  color: var(--Favourite_Color);
-  border-radius: 50%;
+.card-dismiss{
+  opacity: 0.5;
+  font-size: 1.5rem;
 }
-.favourites:hover {
-  background-color: var(--Favourite_Hover_Color);
-}
+
 
 @media screen and (max-width: 400px) {
   .grid-container {
