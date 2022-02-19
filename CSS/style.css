@@ -1,8 +1,9 @@
 @import url("/Pages/ProductList/productlist.css");
-@import url("/cartpage.css");
+@import url("/Pages/CartManagement/cartpage.css");
 @import url("/Pages/Wishlist/wishlist.css");
-@import url("/login.css");
-@import url("/signup.css");
+@import url("/Pages/Login/login.css");
+@import url("/Pages/Signup/signup.css");
+@import url("/Pages/Logout/logout.css");
 @import url("utilities.css");
 
 /************Home***********
@@ -10,7 +11,7 @@
 *************Style***********/
 
 /* || Navigation section */
-.navigation{
+.navigation {
   background-color: var(--Color_White);
 }
 .search-bar {
@@ -19,15 +20,18 @@
 .search-input {
   width: 100%;
 }
-.secondary-list {
-  gap: 10px;
-}
 
 .main-heading {
   text-transform: uppercase;
   padding: 1rem;
   font-size: 1.5rem;
   text-align: center;
+}
+.section-heading {
+  font-weight: 400;
+  background-color: var(--Color_White);
+  padding: 1rem;
+  margin: 0;
 }
 
 /* || Introduction section */
@@ -38,6 +42,10 @@
   background-color: var(--Primary_Color_100);
   padding: 1rem;
   display: flex;
+}
+.intro-header,
+.intro-quote {
+  margin: 0;
 }
 .image {
   max-width: 40%;
@@ -68,7 +76,8 @@
 .cta-button {
   margin-top: 1rem;
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
 }
 
 /* || category section */

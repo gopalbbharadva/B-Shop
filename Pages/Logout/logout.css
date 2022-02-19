@@ -1,0 +1,28 @@
+.grid-logout {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  margin: 3rem 1rem;
+}
+.logout-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--Color_White);
+  padding: 1rem;
+  box-shadow: 0 3px 8px var(--Secondary_Border_Color);
+}
+.success-icon {
+  font-size: 3rem;
+  color: var(--Color_Success_500);
+}
+.logout-message {
+  margin: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--Color_Success_500);
+}
+.home-link{
+  font-size: 1.5rem;
+  color: var(--Primary_Color);
+}
