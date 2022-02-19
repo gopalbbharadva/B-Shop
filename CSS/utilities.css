@@ -33,3 +33,6 @@ body {
   background-color: var(--Color_White);
   border-radius: 50%;
 }
+.favourites:hover {
+  background-color: var(--Favourite_Hover_Color);
+}
