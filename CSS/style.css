@@ -21,6 +21,9 @@
 .search-input {
   width: 100%;
 }
+.login-link{
+  text-transform: uppercase;
+}
 
 .main-heading {
   text-transform: uppercase;
