@@ -16,7 +16,7 @@
       src="https://kit.fontawesome.com/01d7227a07.js"
       crossorigin="anonymous"
     ></script>
-    <title>Login Page</title>
+    <title>Logout Page</title>
   </head>
   <body>
     <nav class="navigation">
@@ -54,37 +54,16 @@
             <span class="cart-badge badge">6</span>
           </li>
         </ul>
-        <a href="/Pages/Logout/Logout.html" class="login-link"
+        <a href="/Pages/Login/login.html" class="login-link"
           ><span>Logout</span></a
         >
       </div>
     </nav>
-    <div class="container">
-      <div class="login-card">
-        <h1 class="text-login">Login</h1>
-        <div class="input-icon-container input-primary">
-          <i class="fa-regular fa-envelope input-icon"></i>
-          <input type="email" class="input" placeholder="e.g abc@gmail.com" />
-        </div>
-        <div class="input-icon-container input-primary">
-          <i class="fa-regular fa-lock input-icon"></i>
-          <input type="email" class="input" placeholder="e.g abc123" />
-          <i class="fa-regular fa-eye-slash"></i>
-        </div>
-        <div class="horizontal-div">
-          <label for="remember-me">
-            <input id="remember-me" type="checkbox" />Remember me
-          </label>
-          <a href="/Pages/ForgotPassword/forgotpassword.html" class="forgot-link">Forgot Password?</a>
-        </div>
-        <a href="/Pages/Login/login.html" class="btn is-solid"> Login </a>
-        <span class="text-or">Or</span>
-        <p class="align-center">
-          New user?
-          <a href="/Pages/Signup/Signup.html" class="auth-link"
-            >Create an account</a
-          >
-        </p>
+    <div class="grid-logout">
+      <div class="logout-card">
+        <i class="fa-solid fa-circle-check success-icon"></i>
+        <p class="logout-message">You have been logged out successfully!!</p>
+        <a class="home-link" href="/index.html">Back To Home</a>
       </div>
     </div>
   </body>
