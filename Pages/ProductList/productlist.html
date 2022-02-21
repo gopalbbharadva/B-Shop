@@ -25,7 +25,13 @@
         <i class="fas fa-bars"></i>
       </span>
       <div class="nav-left-section">
-        <img src="/Images/bookl.jpg" class="logo" alt="no preview available" />
+        <a href="/index.html">
+          <img
+            src="/Images/bookl.jpg"
+            class="logo"
+            alt="no preview available"
+          />
+        </a>
       </div>
       <div class="search-icon">
         <i class="fas fa-search"></i>
@@ -37,17 +43,21 @@
       <div class="nav-right-section">
         <ul class="secondary-list">
           <li class="favorites-list-item">
-            <a href="/wishlist.html" class="btn">
+            <a href="/Pages/Wishlist/wishlist.html">
               <i class="fas fa-heart"></i>
             </a>
+            <span class="favourite-badge badge">4</span>
           </li>
           <li class="cart-list-item">
-            <a href="/cartpage.html" class="btn">
+            <a href="/Pages/CartManagement/cartpage.html">
               <i class="fas fa-shopping-cart"></i>
             </a>
+            <span class="cart-badge badge">6</span>
           </li>
         </ul>
-        <a href="/login.html" class="login-link"><span>Login</span></a>
+        <a href="/Pages/Login/login.html" class="login-link"
+          ><span>Login</span></a
+        >
       </div>
     </nav>
     <!-- Main content -->
@@ -75,6 +85,25 @@
             ><input type="checkbox" id="self-help" />Self-help</label
           >
         </div>
+        <div class="rating-category">
+          <h4 class="cat-heading">Customer Ratings</h4>
+          <label class="label-style" for="four-star"
+            ><input type="checkbox" id="four-star" />4
+            <i class="fa-solid fa-star icon-star"></i> & above</label
+          >
+          <label class="label-style" for="thre-star"
+            ><input type="checkbox" id="three-star" />3
+            <i class="fa-solid fa-star icon-star"></i> & above</label
+          >
+          <label class="label-style" for="two-star"
+            ><input type="checkbox" id="two-star" />2
+            <i class="fa-solid fa-star icon-star"></i> & above</label
+          >
+          <label class="label-style" for="one-star"
+            ><input type="checkbox" id="one-star" />1
+            <i class="fa-solid fa-star icon-star"></i> & above</label
+          >
+        </div>
         <div class="price-category">
           <h4 class="cat-heading">Sort by pricing</h4>
           <label class="label-style" for="lth"
@@ -92,7 +121,7 @@
               id="priceInput"
               min="1"
               max="1000"
-              value="30"
+              value="200"
               oninput="showPrice.value = priceInput.value"
             />
           </label>
@@ -106,9 +135,12 @@
           <div class="card-image-container">
             <img
               class="image-responsive"
-              src="/Images/lineriver.jpg"
+              src="https://n1.sdlcdn.com/imgs/h/o/v/230X258_sharpened/The-Sun-and-Her-Flowers-SDL952732657-1-962e7.webp"
               alt="No preview available"
             />
+            <span class="favourites">
+              <i class="fa-regular fa-heart"></i>
+            </span>
           </div>
           <div class="card-body">
             <h3 class="card-title">A line in the river</h3>
@@ -129,9 +161,12 @@
           <div class="card-image-container">
             <img
               class="image-responsive"
-              src="/Images/lineriver.jpg"
+              src="https://n1.sdlcdn.com/imgs/b/h/z/large/ReWork-SDL718197707-1-91c1d.jpg"
               alt="No preview available"
             />
+            <span class="favourites">
+              <i class="fa-regular fa-heart"></i>
+            </span>
           </div>
           <div class="card-body">
             <h3 class="card-title">A line in the river</h3>
@@ -152,9 +187,12 @@
           <div class="card-image-container">
             <img
               class="image-responsive"
-              src="/Images/lineriver.jpg"
+              src="https://n1.sdlcdn.com/imgs/h/g/i/large/Hyperfocus-SDL761314546-1-e1cae.jpg"
               alt="No preview available"
             />
+            <span class="favourites">
+              <i class="fa-regular fa-heart"></i>
+            </span>
           </div>
           <div class="card-body">
             <h3 class="card-title">A line in the river</h3>
@@ -175,9 +213,12 @@
           <div class="card-image-container">
             <img
               class="image-responsive"
-              src="/Images/lineriver.jpg"
+              src="https://n2.sdlcdn.com/imgs/j/l/0/230X258_sharpened/Good-To-Great-Paperback-Jim-SDL169352697-1-39f89.jpeg"
               alt="No preview available"
             />
+            <span class="favourites">
+              <i class="fa-regular fa-heart"></i>
+            </span>
           </div>
           <div class="card-body">
             <h3 class="card-title">A line in the river</h3>
@@ -198,9 +239,12 @@
           <div class="card-image-container">
             <img
               class="image-responsive"
-              src="/Images/lineriver.jpg"
+              src="https://n1.sdlcdn.com/imgs/j/s/h/large/The-Missing-I-In-My-SDL893348072-1-b894d.jpg"
               alt="No preview available"
             />
+            <span class="favourites">
+              <i class="fa-regular fa-heart"></i>
+            </span>
           </div>
           <div class="card-body">
             <h3 class="card-title">A line in the river</h3>
@@ -221,9 +265,12 @@
           <div class="card-image-container">
             <img
               class="image-responsive"
-              src="/Images/lineriver.jpg"
+              src="https://n2.sdlcdn.com/imgs/f/n/j/230X258_sharpened/The-Power-of-Habit-Why-SDL111727684-1-91824.webp"
               alt="No preview available"
             />
+            <span class="favourites">
+              <i class="fa-regular fa-heart"></i>
+            </span>
           </div>
           <div class="card-body">
             <h3 class="card-title">A line in the river</h3>
@@ -244,9 +291,12 @@
           <div class="card-image-container">
             <img
               class="image-responsive"
-              src="/Images/lineriver.jpg"
+              src="https://n1.sdlcdn.com/imgs/g/p/h/large/The-Secret-Law-of-Blessing-SDL722248518-1-1c081.png"
               alt="No preview available"
             />
+            <span class="favourites">
+              <i class="fa-regular fa-heart"></i>
+            </span>
           </div>
           <div class="card-body">
             <h3 class="card-title">A line in the river</h3>
@@ -267,9 +317,12 @@
           <div class="card-image-container">
             <img
               class="image-responsive"
-              src="/Images/lineriver.jpg"
+              src="https://n3.sdlcdn.com/imgs/f/d/3/230X258_sharpened/414rBTK_nML__SX317_BO1_204_203_200_-caac4.webp"
               alt="No preview available"
             />
+            <span class="favourites">
+              <i class="fa-regular fa-heart"></i>
+            </span>
           </div>
           <div class="card-body">
             <h3 class="card-title">A line in the river</h3>
